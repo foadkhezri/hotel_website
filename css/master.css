@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900, 400');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #33313b;
+}
+
+header ul {
+    position: relative;
+    background-color: #33313b;
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    font-size: 1.3em;
+    transform: translateY(-50%);
+}
+
+#logo:hover {
+    background-color: #33313b;
+    color: #f9f9f9;
+}
+
+header nav ul li:first-child {
+    float: left;
+}
+
+header ul li {
+    float: right;
+}
+
+header ul li a {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    padding: 15px 20px;
+}
+
+header ul li a:hover {
+    background-color: #504f57;
+    color: #fdc57b;
+}
+
+main {
+    /* overflow: auto; */
+}
+
+
+#testimonial {
+    text-align: center;
+    height: 92.62vh;
+    padding-top: 180px;
+    background-image: url(/pics/showcase.jpg);
+    background-size: cover;
+}
+
+#testimonial h2 span {
+    color: #fdc57b;
+}
+
+#testimonial h2 {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #f9f9f9;
+    font-size: 4em;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#testimonial p {
+    color: #f9f9f9;
+    font-size: 1.2em;
+}
+
+#testimonial button {
+    padding: 15px 32px;
+    background-color: #33313b;
+    border: none;
+    color: #f9f9f9;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#testimonial button:hover {
+    padding: 15px 32px;
+    background-color: #fdc57b;
+    border: none;
+    color: #000000;
+}
+#hotel-history {
+    overflow:auto;
+    background-color: #1d1919;
+}
+#hotel-history::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#hotel-history img{
+    width: 50%;
+    float: left;
+}
+#hotel-history article {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+#hotel-history article h3{
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: #f9f9f9;
+}
+#hotel-history article h3 span{
+    color: #fdc57b;
+}
+#hotel-history article p{
+    color: #f9f9f9;
+    padding: 0 32px;
+}
+#hotel-history article button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    background-color: #f9f9f9;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.services {
+    height: 50vh;
+    overflow: auto;
+}
+.services article {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+}
+.services article i {
+    font-size: 2.5em;
+}
+.services article h3 {
+    margin: 0;
+}
