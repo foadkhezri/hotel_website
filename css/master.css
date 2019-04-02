@@ -110,38 +110,46 @@ main {
     border: none;
     color: #000000;
 }
+
 #hotel-history {
-    overflow:auto;
+    overflow: auto;
     background-color: #1d1919;
 }
+
 #hotel-history::after {
     content: "";
     clear: both;
     display: table;
 }
-#hotel-history img{
+
+#hotel-history img {
     width: 50%;
     float: left;
 }
+
 #hotel-history article {
     display: inline-block;
     width: 50%;
     text-align: center;
 }
-#hotel-history article h3{
+
+#hotel-history article h3 {
     margin-top: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 2em;
     color: #f9f9f9;
 }
-#hotel-history article h3 span{
+
+#hotel-history article h3 span {
     color: #fdc57b;
 }
-#hotel-history article p{
+
+#hotel-history article p {
     color: #f9f9f9;
     padding: 0 32px;
 }
+
 #hotel-history article button {
     margin-top: 20px;
     padding: 15px 32px;
@@ -153,18 +161,39 @@ main {
 }
 
 .services {
-    height: 50vh;
     overflow: auto;
 }
+
 .services article {
     width: 33.333%;
     float: left;
     text-align: center;
-    margin-top: 30px;
+    padding: 50px 0;
 }
+
 .services article i {
     font-size: 2.5em;
 }
+
 .services article h3 {
     margin: 0;
+}
+
+.context {
+    width: 70%;
+    margin: 40px auto 0 auto;
+}
+
+.services article:nth-of-type(even) {
+    background-color: #fdc57b;
+}
+
+footer {
+    background-color: #33313b;
+    text-align: center;
+    padding: 50px;
+}
+footer p {
+    margin: 0;
+    color: #f9f9f9;
 }
